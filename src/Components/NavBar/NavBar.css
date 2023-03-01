@@ -1,0 +1,33 @@
+.nav-bar{
+    background-color: #FEFAE0;
+    font-family: "Figtree";
+    color: #330F0A;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+    width: 90vw;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    }
+
+.home-link{
+    color: #362310;
+    text-decoration: none;
+grid-column-start: 4;
+grid-column-end: 4;
+}
+
+.post-new-link{
+    color: #362310;
+    text-decoration: none;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.about-link{
+    color: #362310;
+    text-decoration: none;
+    grid-column-start: 6;
+    grid-column-end: 6;
+}
